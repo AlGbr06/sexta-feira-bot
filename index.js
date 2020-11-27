@@ -130,7 +130,7 @@ else if (text == '!comandos'){
    {
       let caption = imageMessage.caption.toLocaleLowerCase()
       const buffer = await conn.downloadMediaMessage(m) // to decrypt & use as a buffer
-      if (caption == '!sexta')
+      if (caption == '!gif')
       {
          const stiker = await conn.downloadAndSaveMediaMessage(m) // to decrypt & save to file
 
