@@ -102,6 +102,9 @@ conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsA
 if (text == '!help'){
 conn.sendMessage(id, menu.menu ,MessageType.text);
 }
+else if (text == '!comandos'){
+   conn.sendMessage(id, menu.comandos ,MessageType.text);
+}
 
    if (messageType == 'imageMessage')
    {
